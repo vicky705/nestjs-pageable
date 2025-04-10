@@ -57,10 +57,13 @@ const result = await userPagination.paginate({
 console.log(result);
 /*
 {
-  contents: [...],
-  totalCount: 42,
-  pageNumber: 1,
-  pageSize: 10
+  "contents": [...],
+  "totalCount": 100,
+  "totalPage": 10,
+  "pageNumber": 1,
+  "pageSize": 10,
+  "isFirstPage": true,
+  "isLastPage": false
 }
 */
 ```
@@ -85,8 +88,11 @@ interface PaginationParams {
 interface PaginatedResponse<T> {
   contents: T[];
   totalCount: number;
+  totalPage: number;
   pageNumber: number;
   pageSize: number;
+  isFirstPage: boolean;
+  isLastPage: boolean;
 }
 ```
 
