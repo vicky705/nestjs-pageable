@@ -110,4 +110,12 @@ MIT
 ## 👨‍💻 Author
 - Made with ❤️ by `vicky705 (vicky kumar)`
 
-## Github Repository
+## ✅ Github Repository
+```sh
+https://github.com/vicky705/nestjs-pageable.git
+```
+
+## 📚 Issues
+Please report ypur [issues]('https://github.com/vicky705/nestjs-pageable/issues) here.
+
+# Thank You
