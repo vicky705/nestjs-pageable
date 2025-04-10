@@ -1,4 +1,4 @@
-# @nestjs/pageable
+# nestjs-pageable-fn
 
 A reusable pagination helper for NestJS (or any Node.js backend), providing support for:
 
@@ -13,7 +13,7 @@ A reusable pagination helper for NestJS (or any Node.js backend), providing supp
 ## 📦 Installation
 
 ```bash
-npm install @nestjs/pageable
+npm install nestjs-pageable-fn
 ```
 
 ## 🚀 Usage
@@ -21,7 +21,7 @@ npm install @nestjs/pageable
 ### 1. Extend Pageable<T>
 if you extend `Pageable<T>` then you need to overide fetchData() according to your database schema as you needed.
 ```ts
-import { Pageable, PaginationParams, PaginatedResponse } from '@nestjs/pageable';
+import { Pageable, PaginationParams, PaginatedResponse } from 'nestjs-pageable-fn';
 
 interface User {
   id: string;
